@@ -1,0 +1,77 @@
+/* Write your CSS here */
+
+.not-found-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.is-dark-bg {
+  background-color: #000000;
+}
+
+.is-light-bg {
+  background-color: #ffffff;
+}
+
+.responsive-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.responsive-not-found-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  padding: 20px;
+}
+
+.not-found-image {
+  width: 250px;
+}
+
+@media screen and (min-width: 768px) {
+  .not-found-image {
+    width: 400px;
+  }
+}
+
+.is-dark-theme-title {
+  color: #334155;
+}
+
+.is-light-theme-title {
+  color: #f8fafc;
+}
+
+.not-found-heading {
+  font-size: 24px;
+  font-family: 'Roboto';
+  font-weight: bold;
+  line-height: 1.3;
+}
+
+@media screen and (min-width: 768px) {
+  .not-found-heading {
+    font-size: 32px;
+  }
+}
+
+.not-found-content {
+  font-size: 18px;
+  font-family: 'Roboto';
+  font-weight: 400;
+}
+
+.is-light-theme-description {
+  color: #f8fafc;
+}
+
+.is-dark-theme-description {
+  color: #64748b;
+}
